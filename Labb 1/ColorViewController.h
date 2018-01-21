@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ColorViewController : UIViewController
-
++(UIColor*) loadSavedColor;
 @end

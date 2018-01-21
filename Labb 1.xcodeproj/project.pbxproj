@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		5DA28B9F2013860500C9FA2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA28B9E2013860500C9FA2C /* AppDelegate.m */; };
-		5DA28BA22013860500C9FA2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA28BA12013860500C9FA2C /* ViewController.m */; };
 		5DA28BA52013860500C9FA2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA28BA32013860500C9FA2C /* Main.storyboard */; };
 		5DA28BA72013860500C9FA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA28BA62013860500C9FA2C /* Assets.xcassets */; };
 		5DA28BAA2013860500C9FA2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA28BA82013860500C9FA2C /* LaunchScreen.storyboard */; };
 		5DA28BAD2013860500C9FA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA28BAC2013860500C9FA2C /* main.m */; };
+		5DF90FCC2013BB7E00F98117 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF90FCB2013BB7E00F98117 /* ColorViewController.m */; };
+		5DF90FD22014D64100F98117 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF90FD12014D64100F98117 /* AboutMeViewController.m */; };
+		5DF90FD82014D66A00F98117 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF90FD72014D66A00F98117 /* HomeViewController.m */; };
+		5DF90FFD2014D9D500F98117 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF90FFC2014D9D500F98117 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DA28B9A2013860500C9FA2C /* Labb 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Labb 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA28B9D2013860500C9FA2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DA28B9E2013860500C9FA2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DA28BA02013860500C9FA2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5DA28BA12013860500C9FA2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5DA28BA42013860500C9FA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA28BA62013860500C9FA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA28BA92013860500C9FA2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA28BAB2013860500C9FA2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DA28BAC2013860500C9FA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DF90FCA2013BB7E00F98117 /* ColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		5DF90FCB2013BB7E00F98117 /* ColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		5DF90FD02014D64100F98117 /* AboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		5DF90FD12014D64100F98117 /* AboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		5DF90FD62014D66A00F98117 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5DF90FD72014D66A00F98117 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5DF90FFB2014D9D500F98117 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5DF90FFC2014D9D500F98117 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +69,19 @@
 			children = (
 				5DA28B9D2013860500C9FA2C /* AppDelegate.h */,
 				5DA28B9E2013860500C9FA2C /* AppDelegate.m */,
-				5DA28BA02013860500C9FA2C /* ViewController.h */,
-				5DA28BA12013860500C9FA2C /* ViewController.m */,
 				5DA28BA32013860500C9FA2C /* Main.storyboard */,
 				5DA28BA62013860500C9FA2C /* Assets.xcassets */,
 				5DA28BA82013860500C9FA2C /* LaunchScreen.storyboard */,
 				5DA28BAB2013860500C9FA2C /* Info.plist */,
 				5DA28BAC2013860500C9FA2C /* main.m */,
+				5DF90FCA2013BB7E00F98117 /* ColorViewController.h */,
+				5DF90FCB2013BB7E00F98117 /* ColorViewController.m */,
+				5DF90FD02014D64100F98117 /* AboutMeViewController.h */,
+				5DF90FD12014D64100F98117 /* AboutMeViewController.m */,
+				5DF90FD62014D66A00F98117 /* HomeViewController.h */,
+				5DF90FD72014D66A00F98117 /* HomeViewController.m */,
+				5DF90FFB2014D9D500F98117 /* GameViewController.h */,
+				5DF90FFC2014D9D500F98117 /* GameViewController.m */,
 			);
 			path = "Labb 1";
 			sourceTree = "<group>";
@@ -142,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA28BA22013860500C9FA2C /* ViewController.m in Sources */,
 				5DA28BAD2013860500C9FA2C /* main.m in Sources */,
+				5DF90FCC2013BB7E00F98117 /* ColorViewController.m in Sources */,
 				5DA28B9F2013860500C9FA2C /* AppDelegate.m in Sources */,
+				5DF90FD22014D64100F98117 /* AboutMeViewController.m in Sources */,
+				5DF90FFD2014D9D500F98117 /* GameViewController.m in Sources */,
+				5DF90FD82014D66A00F98117 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "AboutMeViewController.h"
+#import "ColorViewController.h"
 
 @interface AboutMeViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+-(void) viewWillAppear:(BOOL)animated {
+    self.view.backgroundColor = [ColorViewController loadSavedColor];
 }
 
 - (void)didReceiveMemoryWarning {

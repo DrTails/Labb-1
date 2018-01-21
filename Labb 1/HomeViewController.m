@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-
+#import "ColorViewController.h"
 @interface HomeViewController ()
 
 @end
@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+-(void) viewWillAppear:(BOOL)animated {
+    self.view.backgroundColor = [ColorViewController loadSavedColor];
 }
 
 - (void)didReceiveMemoryWarning {
